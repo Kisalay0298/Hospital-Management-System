@@ -1,0 +1,44 @@
+we are using Axios because:
+    1. it helps us getch data from an API(GET request)
+    2. Sends data to an api through get, put, post, delete requests
+    3. Handles API errors more efficiently
+
+using react-router-dom
+    Client-side Routing 	Fast, no full-page reloads
+    Dynamic URLs	        Support for URL parameters (:id)
+    Nested Routes	        Organize components better
+    Redirections	        Easily redirect users based on conditions
+    Protected Routes	    Restrict pages based on authentication
+
+using react-toastify
+    it is used for displaying toast notifications in React applications. It helps in providing instant feedback to users for various actions like:
+    - Success messages
+    - Error messages
+    - Warning messages
+    - Info messages
+
+we have used template literals
+we have used useEffect, useState, useContext
+
+
+
+BACKEND DEPENDENCIES
+    express 
+    mongoose 
+    multer 
+    bcrypt 
+    cloudinary 
+    cors 
+    dotenv 
+    jsonwebtoken 
+    nodemon 
+    validator
+
+in the ADMIN section we have used:
+    Axios
+    react-router-dom
+    react-toastify
+
+why do we use-
+    context
+    props
