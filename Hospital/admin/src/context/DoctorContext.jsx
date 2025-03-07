@@ -6,7 +6,7 @@ export const DoctorContext = createContext();
 
 const DoctorContextProvider = (props) => {
 
-    const backendURL = import.meta.env.VITE_BACKEND_URL
+    const backendURL = "https://hospital-management-backend-4poz.onrender.com"
 
     const [dToken, setDToken] = useState(localStorage.getItem('dToken') ? localStorage.getItem('dToken') : '')
     const [appointments, setAppointments] = useState([])
