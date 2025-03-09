@@ -7,8 +7,6 @@ import adminRouter from './routes/adminRoute.js'
 import doctorRouter from './routes/doctorRoute.js'
 import userRoute from './routes/userRoute.js'
 
-const cors = require('cors');
-app.use(cors({ origin: "https://hospital-management-frontend-qfsz.onrender.com", credentials: true }));
 
 
 // api config
