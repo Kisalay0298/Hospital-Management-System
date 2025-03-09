@@ -7,8 +7,8 @@ import { DoctorContext } from '../context/DoctorContext'
 const Login = () => {
 
     const [state, setState] = useState('Admin')
-    const [email, setEmail] = useState('')
-    const [password, setPassword] = useState('')
+    const [email, setEmail] = useState('admin@prescripto.com')
+    const [password, setPassword] = useState('admin123')
 
     const { setAToken, backendURL } = useContext(AdminContext)
     const { setDToken } = useContext(DoctorContext)
