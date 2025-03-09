@@ -35,6 +35,8 @@ const Navbar = () => {
             <li className='py-1'>Contact</li>
             <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
         </NavLink>
+        <p className="border px-3 py-1 rounded-full border-gray-500 text-gray-600 text-xs cursor-pointer hover:bg-gray-100 transition flex items-center justify-center"
+            onClick={() => window.open("https://hospital-management-admin-3tgr.onrender.com", "_blank")} >Admin/Doctor</p>
       </ul>
       <div className='flex items-center gap-4'>
         {
